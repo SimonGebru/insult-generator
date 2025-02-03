@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+body {
+    background-color: te; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    font-family: 'IM Fell English SC', serif;
+    background-color: #f9f9f9; 
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: black; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.random-insult {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.insults-list {
+    max-height: 200px; 
+    overflow-y: auto; 
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+
+.insult-card {
+    background-color: #d9d9d9;
+    border: 1px solid #bbb;
+    padding: 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-style: italic;
+    text-align: left;
+}
+
+
+form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
